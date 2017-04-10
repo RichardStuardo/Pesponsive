@@ -1,0 +1,58 @@
+html{
+background-color: slateblue;
+}
+
+.contenedor{
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.contenedor h1 {
+  display: inline-block;
+font-size: 100%;
+  background-color: sandybrown;
+  border: black 3px groove;
+  width: 50%;
+  padding: 2%;
+  margin: 1%;
+  -webkit-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+
+}
+.contenedor img {
+  display: inline-block;
+  width: 30%; 
+  height: 20%;
+ border: black 8px groove;
+  margin: 1%;
+  -webkit-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+box-sizing: border-box;
+}
+ .contenedor p {
+   display: inline-block;
+   font-size: 100%;
+   background-color: rgba(147,206,222,1);
+   border: black 2px groove;
+  margin: 1%;
+   -webkit-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+ }
+ @media screen and (max-width:800px){
+.contenedor img {
+width: 100%;
+}
+.contenedor h1 {
+  width: 100%;
+}
+.contenedor p{
+
+  width: 100%;
+}
+
+ }
