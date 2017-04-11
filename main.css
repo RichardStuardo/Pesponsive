@@ -9,9 +9,17 @@ overflow: hidden;
 box-sizing: border-box;
 }
 
+
+body{
+font-size: 16px;
+}
+h1{
+  font-family: 'Macondo', cursive;
+  font-size: 1.5em;
+}
 .contenedor h1 {
   display: inline-block;
-font-size: 100%;
+
   background-color: sandybrown;
   border: black 3px groove;
   width: 50%;
@@ -21,6 +29,37 @@ font-size: 100%;
 -moz-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
 box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
 
+}
+header{
+  font-size: 1.5em;
+}
+.sub{
+  font-size:0.7em;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+.contenedor h2 {
+  display: inline-block;
+
+  background-color: sandybrown;
+  border: black 3px groove;
+  width: 50%;
+  padding: 2%;
+  margin: 1%;
+  -webkit-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+box-shadow: 10px 10px 26px 1px rgba(0,0,0,0.7);
+
+}
+.size{
+  font-size: 50px;
+}
+
+.fo{
+  background-color: aqua;
+  width: 80%;
 }
 .contenedor img {
   display: inline-block;
